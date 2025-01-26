@@ -1,8 +1,165 @@
 * {
     font-family: Roboto;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.header-background,
+.hero-background {
+    background-color: #1F2937;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: auto;
+    max-width: 1024px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 8px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 48px;
+    max-width: 1024px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    padding: 8px 24px;
+    margin-top: 16px;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 48px;
+}
+
+.random-information {
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+
+.item {
+    max-width: 168px;
+    margin-top: 48px;
+}
+
+.item p {
+    margin-top: 8px;
+}
+
+.item-image {
+    border:solid 4px #3882F6;
+    border-radius: 16px;
+    width: 168px;
+    height: 168px;
+}
+
+.information-items {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 96px;
+}
+
+blockquote {
+    max-width: 800px ;
+    margin: auto;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.cite {
+    display: flex;
+    justify-content: end;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 16px;
+    width: 1024px;
+    height: 160px;
+    margin: auto;
+    gap: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    color: #E5E7EB;
+}
+
+.action-container {
+    height: 350px;
+    display: flex;
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB ;
+    border-radius: 6px;
+    color: #E5E7EB;
+    font-weight: 600;
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 24px;
 }
